@@ -1,7 +1,15 @@
 import 'styles/globals.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import MainPage from 'pages/MainPage';
 
 const App = () => {
-  return <div className='text-green-500'>Hoja de Vida</div>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<MainPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 export default App;
