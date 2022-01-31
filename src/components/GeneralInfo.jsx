@@ -4,8 +4,8 @@ import H2withText from 'components/H2withText';
 const GeneralInfo = ({ properties }) => {
   return (
     <div>
-      <h1 className={`h1-magenta-3 ${properties}`}>Información general</h1>
       <div>
+        <h1 className={`h1-magenta-3 ${properties}`}>Información general</h1>
         <H2withText
           mg='ml-5 mt-cv-18'
           tittle='Ubicación'

@@ -3,72 +3,73 @@
 @tailwind utilities;
 
 .flex-sidebar {
-  @apply flex flex-col items-center z-10;
+  box-shadow: 2px 0px 16px 2px rgba(0, 0, 0, 0.25);
+  @apply flex flex-col items-center z-10 
+  sm:border-b sm:border-b-cv-color-magenta-3
+  lg:border-b-0 lg:border-r lg:border-r-cv-color-magenta-3;
 }
 
 .background {
   @apply h-full w-full z-0 bg-cv-color-gray-3;
 }
 
-
+.nav-icon {
+  @apply align-top mt-1;
+}
 
 /* ---------- H1 ---------- */
 
 h1 {
   line-height: 49px;
-  @apply text-cv-color-black-1 font-sans text-lg
+  @apply text-cv-color-black-1 font-sans text-lg;
 }
 
-.h1-magenta-2{
-  text-shadow:
-  -0.5px -0.5px 0 #F562F7,
-   0   -0.5px 0 #F562F7,
-   0.5px -0.5px 0 #F562F7,
-   0.5px  0   0 #F562F7,
-   0.5px  0.5px 0 #F562F7,
-   0    0.5px 0 #F562F7,
-  -0.5px  0.5px 0 #F562F7,
-  -0.5px  0   0 #F562F7;
+.h1-magenta-2 {
+  text-shadow: -0.5px -0.5px 0 #f562f7, 0 -0.5px 0 #f562f7,
+    0.5px -0.5px 0 #f562f7, 0.5px 0 0 #f562f7, 0.5px 0.5px 0 #f562f7,
+    0 0.5px 0 #f562f7, -0.5px 0.5px 0 #f562f7, -0.5px 0 0 #f562f7;
 }
 
-.h1-magenta-3{
-  text-shadow:
-  -0.5px -0.5px 0 #E7A0E8,
-   0   -0.5px 0 #E7A0E8,
-   0.5px -0.5px 0 #E7A0E8,
-   0.5px  0   0 #E7A0E8,
-   0.5px  0.5px 0 #E7A0E8,
-   0    0.5px 0 #E7A0E8,
-  -0.5px  0.5px 0 #E7A0E8,
-  -0.5px  0   0 #E7A0E8;
+.h1-magenta-3 {
+  text-shadow: -0.5px -0.5px 0 #e7a0e8, 0 -0.5px 0 #e7a0e8,
+    0.5px -0.5px 0 #e7a0e8, 0.5px 0 0 #e7a0e8, 0.5px 0.5px 0 #e7a0e8,
+    0 0.5px 0 #e7a0e8, -0.5px 0.5px 0 #e7a0e8, -0.5px 0 0 #e7a0e8;
+}
+
+.h1-with-text{
+  @apply border-b border-cv-color-black-3 md:border-r mt-8 md:mt-10;
 }
 
 /* -------- H1 END -------- */
 
 /* ---------- H2 ---------- */
 
-h2{
+h2 {
   line-height: 33px;
-  @apply text-cv-color-black-1 font-sans text-base
+  @apply text-cv-color-black-1 font-sans text-base;
 }
 
-.h2-cian-2{
-  text-shadow:
-  -0.5px -0.5px 0 #63F7F0,
-   0   -0.5px 0 #63F7F0,
-   0.5px -0.5px 0 #63F7F0,
-   0.5px  0   0 #63F7F0,
-   0.5px  0.5px 0 #63F7F0,
-   0    0.5px 0 #63F7F0,
-  -0.5px  0.5px 0 #63F7F0,
-  -0.5px  0   0 #63F7F0;
+.h2-cian-2 {
+  text-shadow: -0.5px -0.5px 0 #63f7f0, 0 -0.5px 0 #63f7f0,
+    0.5px -0.5px 0 #63f7f0, 0.5px 0 0 #63f7f0, 0.5px 0.5px 0 #63f7f0,
+    0 0.5px 0 #63f7f0, -0.5px 0.5px 0 #63f7f0, -0.5px 0 0 #63f7f0;
 }
 
 /* -------- H2 END -------- */
 
-p{
+/* -------- TEXT ---------- */
+
+p {
   line-height: 26px;
-  @apply text-cv-color-black-1 font-sans text-sm
+  @apply text-cv-color-black-1 font-sans text-sm;
 }
 
-/* -------- H2 END -------- */
+.li-without-bullet {
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+
+/* ------ TEXT END--------- */
+
+

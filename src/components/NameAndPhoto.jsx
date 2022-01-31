@@ -7,7 +7,7 @@ const NameAndPhoto = () => {
         <img
           src='resources/Photo.jpeg'
           alt='No profile pic'
-          className='rounded-full border border-cv-color-magenta-1 mt-cv-mg-44 md:mt-cv-60 '
+          className='rounded-full border border-cv-color-magenta-1 mt-cv-44 md:mt-cv-60 '
         />
       </div>
       <div className=' flex flex-col mt-cv-60 items-center'>
