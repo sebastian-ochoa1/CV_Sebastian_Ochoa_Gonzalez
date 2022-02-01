@@ -59,7 +59,7 @@ const MainPage = () => {
 
           <div className='w-full'>
             {isDesktop && (
-              <div className='flex flex-col items-center'>
+              <div className='flex flex-col items-center mb-20'>
                 <Line properties='my-3' />
                 <div className='w-cv-380 '>
                   <Languages />
