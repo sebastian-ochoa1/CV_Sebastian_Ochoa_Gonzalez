@@ -42,7 +42,9 @@ module.exports = {
     },
     extend: {
       spacing: {
+        'cv-n-20':'-20px',
         'cv-1': '1px',
+        'cv-2': '2px',
         'cv-5': '5px',
         'cv-18': '18px',
         'cv-22': '22px',
@@ -53,6 +55,8 @@ module.exports = {
         'cv-50': '50px',
         'cv-60': '60px',
         'cv-78': '78px',
+        'cv-90': '90px',
+        'cv-100': '100px',
         'cv-300': '300px',
         'cv-334': '334px',
         'cv-350': '350px',
@@ -74,6 +78,7 @@ module.exports = {
       'base': '24px',
       'lg': '36px',
       'icon-size': '50px',
+      'stars-size':'20px',
     }
   },
   plugins: [],

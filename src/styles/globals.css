@@ -36,7 +36,7 @@ h1 {
     0 0.5px 0 #e7a0e8, -0.5px 0.5px 0 #e7a0e8, -0.5px 0 0 #e7a0e8;
 }
 
-.h1-with-text{
+.h1-with-text {
   @apply border-b border-cv-color-black-3 md:border-r mt-8 md:mt-10;
 }
 
@@ -69,7 +69,18 @@ p {
   margin-left: 25px;
 }
 
-
 /* ------ TEXT END--------- */
 
+/* -------- STARS --------- */
 
+.stars-border {
+  text-shadow: -0.5px -0.5px 0 #000000, 0 -0.5px 0 #000000,
+    0.5px -0.5px 0 #000000, 0.5px 0 0 #000000, 0.5px 0.5px 0 #000000,
+    0 0.5px 0 #000000, -0.5px 0.5px 0 #000000, -0.5px 0 0 #000000;
+}
+
+.star {
+  @apply stars-border text-stars-size mx-cv-2;
+}
+
+/* ------ STARS END ------- */
