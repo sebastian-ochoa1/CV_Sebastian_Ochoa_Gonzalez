@@ -27,11 +27,8 @@ const emptyStarsFunction = (hStars) => {
 
 const TechStars = ({ expertise }) => {
   const fullStars = expertise % 2 === 0 ? expertise / 2 : expertise / 2 - 0.5;
-  console.log(fullStars);
   const halfStars = expertise % 2 === 0 ? 0 : 1;
-  console.log(halfStars);
   const emptyStars = 5 - (fullStars + halfStars);
-  console.log(emptyStars);
   return (
     <div className='flex flex-row mt-1 justify-center'>
       {fullStarsFunction(fullStars).map((fullS) => fullS)}
